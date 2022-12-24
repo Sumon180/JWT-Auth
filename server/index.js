@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 app.post("/login", (req, resp) => {
   const user = {
     id: 1,
-    username: "Sumon mr",
+    fullName: "Sumon Hossain",
     email: "sumonmr@gmail.com",
   };
   // token create
